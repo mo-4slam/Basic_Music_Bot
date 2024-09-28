@@ -13,5 +13,3 @@ from dotenv import load_dotenv
 def run_bot():
     load_dotenv()
     TOKEN = os.getenv('discord_token')
-
-    
